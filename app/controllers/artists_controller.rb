@@ -28,7 +28,7 @@ class ArtistsController < ApplicationController
 
   private
 
-  def artist_params(*args)
+  def artist_params
     params.require(:artist)
   end
 
