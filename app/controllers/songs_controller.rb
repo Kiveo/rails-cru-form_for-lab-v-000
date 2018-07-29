@@ -9,7 +9,7 @@ class SongsController < ApplicationController
   end
 
   def create
-    @song = song.create(song_params)
+    @song = Song.create(song_params)
     redirect_to song_path(@song)
   end
 
