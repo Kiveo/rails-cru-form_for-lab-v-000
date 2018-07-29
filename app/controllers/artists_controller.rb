@@ -21,7 +21,7 @@ class ArtistsController < ApplicationController
   end
 
   def update
-    erb :"Hello World"
+    puts "Hello World"
     # @artist = Artist.find(params[:id])
     # @artist.update(artist_params)
     # redirect_to artist_path
