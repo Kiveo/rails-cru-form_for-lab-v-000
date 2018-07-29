@@ -4,7 +4,7 @@ class GenresController < ApplicationController
   end
 
   def new
-    @genre = Genre.find(params[:id])
+    @genre = Genre.new
   end
 
   def create
