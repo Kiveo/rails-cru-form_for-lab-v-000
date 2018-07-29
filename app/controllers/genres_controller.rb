@@ -1,5 +1,8 @@
 class GenresController < ApplicationController
-  # create, update, and show
+  def index
+    @genres = Genre.all
+  end
+
   def new
     @genre = Genre.find(params[:id])
   end
